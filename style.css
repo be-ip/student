@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #f1f1f1;
+  color: #0f141e;
+  margin: 0;
+}
+
+.w700 {
+  font-weight: 700;
+}
+
+.w400 {
+  font-weight: 400;
+}
+
+.container {
+  margin: auto;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 25%;
+  padding: 0 20px;
+}
+
+.avatar img {
+  height: auto;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 7px rgba(71, 70, 70, 0.25);
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    /* padding: 10px; */
+  }
+}
+
+.info-text {
+  width: 75%;
+  margin: auto 0px;
+  padding: 0 0 0 45px;
+}
+
+.info-text p {
+  font-weight: normal;
+  color: #78797c;
+}
+
+.info-text a,
+h4 {
+  color: #336699;
+  margin-bottom: 10px;
+}
+
+.secondary,
+.form-group label,
+a,
+a:visited {
+  color: #336699;
+}
+
+.primary {
+  color: #339966;
+}
+
+.tertiary {
+  color: #78797c;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-left: 0;
+}
+
+h2 {
+  color: #336699;
+  margin: auto 0;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #339966;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  color: orange;
+}
+
+.card {
+  text-align: center;
+  background: #fff;
+  padding: 10px 25px;
+  margin-bottom: 25px;
+  border: 1px solid rgb(188, 191, 194);
+  border-radius: 5px;
+}
+
+.card h2 {
+  text-align: left;
+  line-height: 2.2em;
+}
+
+.card th,
+td {
+  padding: 0 20px 0 0;
+  text-align: left;
+}
+
+.card p {
+  text-align: justify;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  text-align: center;
+}
+
+#wrapper p {
+  text-align: center;
+}
+
+.table {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.table td:nth-child(1) {
+  font-weight: 500;
+}
+
+.table td,
+.table th {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
